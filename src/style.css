@@ -11,24 +11,79 @@ header {
   display: flex;
   gap: 4rem;
   font-size: 2rem;
-  margin-bottom: 4rem;
   background-color: whitesmoke;
   align-self: stretch;
   display: flex;  
   justify-content: center;
   align-items: center;
   height: 4rem;
+  padding: 1rem;
 }
 
 .headerDiv {
   padding: 0.6rem 1rem;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 1rem;
+}
+.headerDiv:hover {
+  background-color: skyblue;
+}
+.headerDiv:active {
+  transform: translateY(2px);
+  background-color: rgb(106, 163, 185);
 }
 
 #content {
   background-color: whitesmoke;
-  width: 60%;
-  height: 400px;
+  width: min(60%, 700px);
   border-radius: 1rem;
+  padding: 2rem;
+  margin: 4.6rem 0;
+
 }
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+.box {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  margin-bottom: 4rem;
+}
+
+.divInBox {
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 2rem 0;
+}
+
+h2:last-child {
+  text-align: right;
+}
+
+hr {
+  border: none;
+}
+
+.divInBox:last-child > h2:first-child {
+  text-align: left;
+}
+
