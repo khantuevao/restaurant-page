@@ -35,11 +35,10 @@ header {
 
 #content {
   background-color: whitesmoke;
-  width: min(60%, 700px);
+  width: min(80%, 700px);
   border-radius: 1rem;
   padding: 2rem;
   margin: 4.6rem 0;
-
 }
 
 h1 {
@@ -59,19 +58,20 @@ h2 {
 
 .title {
   font-size: 2rem;
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 1rem;
   padding: 0 1rem;
   margin-bottom: 4rem;
+  width: 100%;
 }
 
-.divInBox {
+.divInBox, .menuItem, .contact {
   border: 2px solid black;
   border-radius: 1rem;
   padding: 1rem;
   font-size: 1.2rem;
   min-width: 300px;
-  max-width: 600px;
+  max-width: 500px;
   margin: 2rem 0;
 }
 
@@ -87,3 +87,14 @@ hr {
   text-align: left;
 }
 
+.menuImg, .contactImg {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 100rem;
+  overflow: hidden;
+}
+
+.contact {
+  display: flex;
+}

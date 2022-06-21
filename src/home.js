@@ -40,7 +40,7 @@ function populateHome() {
   locationTitle.textContent = 'Location';
   location.appendChild(locationTitle);
   const locationText = document.createElement('p');
-  locationText.textContent = '440 Portage Ave, Palo Alto, California 94306, USA';
+  locationText.textContent = '240 Portage Ave, Palo Alto, California 64386, USA';
   location.appendChild(locationText);
 
   box.appendChild(location);
